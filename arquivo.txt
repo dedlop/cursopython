@@ -1,0 +1,32 @@
+Encoding: utf-8, Data: 12/04/2023
+
++ Capital n°0, Nome: Bridgetown, Idiomas: {'eng': 'English'}
+- Capital n°1, Nome: Paramaribo, Idiomas: {'nld': 'Dutch'}
++ Capital n°2, Nome: Windhoek, Idiomas: {'afr': 'Afrikaans', 'deu': 'German', 'eng': 'English', 'her': 'Herero', 'hgm': 'Khoekhoe', 'kwn': 'Kwangali', 'loz': 'Lozi', 'ndo': 'Ndonga', 'tsn': 'Tswana'}
+- Capital n°3, Nome: Conakry, Idiomas: {'fra': 'French'}
++ Capital n°4, Nome: Port Vila, Idiomas: {'bis': 'Bislama', 'eng': 'English', 'fra': 'French'}
+- Capital n°5, Nome: Apia, Idiomas: {'eng': 'English', 'smo': 'Samoan'}
++ Capital n°6, Nome: Paris, Idiomas: {'fra': 'French'}
+- Capital n°7, Nome: Andorra la Vella, Idiomas: {'cat': 'Catalan'}
++ Capital n°8, Nome: Baku, Idiomas: {'aze': 'Azerbaijani', 'rus': 'Russian'}
+- Capital n°9, Nome: Malé, Idiomas: {'div': 'Maldivian'}
++ Capital n°10, Nome: Castries, Idiomas: {'eng': 'English'}
+- Capital n°11, Nome: Panama City, Idiomas: {'spa': 'Spanish'}
++ Capital n°12, Nome: Dili, Idiomas: {'por': 'Portuguese', 'tet': 'Tetum'}
+- Capital n°13, Nome: Skopje, Idiomas: {'mkd': 'Macedonian'}
++ Capital n°14, Nome: Copenhagen, Idiomas: {'dan': 'Danish'}
+- Capital n°15, Nome: Cairo, Idiomas: {'ara': 'Arabic'}
++ Capital n°16, Nome: Tallinn, Idiomas: {'est': 'Estonian'}
+- Capital n°17, Nome: Prague, Idiomas: {'ces': 'Czech', 'slk': 'Slovak'}
++ Capital n°18, Nome: Nassau, Idiomas: {'eng': 'English'}
+- Capital n°19, Nome: Montevideo, Idiomas: {'spa': 'Spanish'}
++ Capital n°20, Nome: Moroni, Idiomas: {'ara': 'Arabic', 'fra': 'French', 'zdj': 'Comorian'}
+- Capital n°21, Nome: San José, Idiomas: {'spa': 'Spanish'}
++ Capital n°22, Nome: Lomé, Idiomas: {'fra': 'French'}
+- Capital n°23, Nome: São Tomé, Idiomas: {'por': 'Portuguese'}
++ Capital n°24, Nome: Amsterdam, Idiomas: {'nld': 'Dutch'}
+- Capital n°25, Nome: Canberra, Idiomas: {'eng': 'English'}
++ Capital n°26, Nome: Kuala Lumpur, Idiomas: {'eng': 'English', 'msa': 'Malay'}
+- Capital n°27, Nome: Kathmandu, Idiomas: {'nep': 'Nepali'}
++ Capital n°28, Nome: Havana, Idiomas: {'spa': 'Spanish'}
+- Capital n°29, Nome: Pyongyang, Idiomas: {'kor': 'Korean'}
