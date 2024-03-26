@@ -1,55 +1,26 @@
-# Dicionários em Python (tipo dict)
-# Dicionários são estruturas de dados do tipo
-# par de "chave" e "valor".
-# Chaves podem ser consideradas como "índice"
-# que vimos na lista e podem ser de tipos imutáveis
-# como: str, int, float, bool, tuple, etc.
-# O valor pode ser de qualquer tipo, incluindo outro
-# dicionário.
-# Usamos as chaves - {} - ou a classe dict para criar
-# dicionários.
-# Imutáveis: str, int, float, bool, tuple
-# Mutável: dict, list
+# Métodos úteis dos dicionários em Python
+# len - quantas chaves
+# keys - iterável com as chaves
+# values - iterável com os valores
+# items - iterável com chaves e valores
+# setdefault - adiciona valor se a chave não existe
+# copy - retorna uma cópia rasa (shallow copy)
+# get - obtém uma chave
+# pop - Apaga um item com a chave especificada (del)
+# popitem - Apaga o último item adicionado
+# update - Atualiza um dicionário com outro
+import copy
 
-#pessoa = dict(nome='Luiz Otávio', sorenome='Miranda')
+d1 = {
+    'c1': 1,
+    'c2': 2,
+    'l1': [0, 1, 2],
+}
 
-# pessoa = {
-#     'nome': 'Luiz Otávio',
-#     'sobrenome': 'Miranda',
-#     'idade': 18,
-#     'altura': 1.8,
-#     'endereços': [
-#         {'rua': 'tal tal', 'número': 123},
-#         {'rua': 'outra rua', 'número': 321}
-#     ],
-# }
-# # print(pessoa, type(pessoa))
-# print(pessoa['nome'])
-# print(pessoa['sobrenome'])
-# print()
+d2 = copy.deepcopy(d1)
 
-# for chave in pessoa:
-#     print(chave, pessoa[chave])
+d2['c1'] = 1000
+d2['l1'][1] = 99999999
 
-# Manipulando chaves e valores em dicionários
-pessoa = {}
-
-chave = 'nome'
-
-pessoa[chave] = 'Luiz Otávio'
-pessoa['sobrenome'] = 'Miranda'
-
-print(pessoa[chave])
-
-pessoa[chave] = 'Maria'
-
-del pessoa['sobrenome']
-print(pessoa)
-print(pessoa['nome'])
-
-#print(pessoa.get('sobrenome'))
-if pessoa.get('sobrenome') is None:
-    print('Não Existe')
-else:
-    print(pessoa['sobrenome'])
-#print('Isso não vai')
+print(d1)
+print(d2)
